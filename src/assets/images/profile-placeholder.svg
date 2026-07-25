@@ -1,0 +1,25 @@
+<svg width="420" height="520" viewBox="0 0 420 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4a8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#f5a623" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141d33"/>
+      <stop offset="100%" stop-color="#0f1626"/>
+    </linearGradient>
+    <clipPath id="clip">
+      <path d="M210 20c88 0 150 66 150 158 0 66-30 118-30 150 0 40 60 40 60 100v92H30v-92c0-60 60-60 60-100 0-32-30-84-30-150C60 86 122 20 210 20z"/>
+    </clipPath>
+  </defs>
+  <rect width="420" height="520" fill="none"/>
+  <g clip-path="url(#clip)">
+    <rect width="420" height="520" fill="url(#g2)"/>
+    <circle cx="210" cy="190" r="150" fill="url(#g1)" opacity="0.18"/>
+    <path d="M210 20c88 0 150 66 150 158 0 66-30 118-30 150 0 40 60 40 60 100v92H30v-92c0-60 60-60 60-100 0-32-30-84-30-150C60 86 122 20 210 20z"
+          fill="url(#g1)" opacity="0.12"/>
+    <circle cx="210" cy="175" r="88" fill="none" stroke="url(#g1)" stroke-width="2" opacity="0.55"/>
+    <path d="M120 470c0-70 40-118 90-118s90 48 90 118" fill="none" stroke="url(#g1)" stroke-width="2" opacity="0.55"/>
+  </g>
+  <text x="210" y="500" text-anchor="middle" font-family="monospace" font-size="11" fill="#8b96b3" letter-spacing="2">MS</text>
+</svg>

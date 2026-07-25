@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #080b14;
+  --panel: #0f1626;
+  --panel-2: #141d33;
+  --border: rgba(148, 163, 196, 0.14);
+  --text: #eaf0f7;
+  --muted: #8b96b3;
+  --teal: #2dd4a8;
+  --teal-dim: rgba(45, 212, 168, 0.14);
+  --amber: #f5a623;
+  --amber-dim: rgba(245, 166, 35, 0.14);
+  --nav-h: 76px;
+}
+
+html[data-theme='light'] {
+  --bg: #f8fafc;
+  --panel: #ffffff;
+  --panel-2: #eef2f7;
+  --border: rgba(15, 23, 42, 0.14);
+  --text: #0f1626;
+  --muted: #475569;
+  --teal: #0f9f7a;
+  --teal-dim: rgba(15, 159, 122, 0.12);
+  --amber: #b86b00;
+  --amber-dim: rgba(184, 107, 0, 0.12);
+}
+
+html[data-theme='light'] .teal-text {
+  color: #0e9e79;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+::selection {
+  background: var(--teal);
+  color: #04140f;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001s !important;
+  }
+}
+
+/* Custom scrollbar for that dark-luxury feel */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--panel-2);
+  border-radius: 8px;
+  border: 2px solid var(--bg);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--teal);
+}
