@@ -49,27 +49,4 @@ portfolio/
 └── index.html
 ```
 
-## Getting started
-```bash
-npm install
-npm run dev       # http://localhost:5173
-npm run build     # production build → dist/
-npm run preview   # preview the production build
-```
 
-## One thing to swap in
-There was no photo in the original upload, so the hero currently shows a stylized
-placeholder silhouette (`src/assets/images/profile-placeholder.svg`) in the same teal/amber
-palette so the layout isn't broken. Drop your real cutout photo in as
-`src/assets/images/profile.png` and update the `import` in `src/components/Hero.jsx`
-(one line) to use it instead.
-
-## What was enhanced beyond the original
-- Componentized, reusable, data-driven (edit `src/data/*.js` to update content — no need to
-  touch JSX for text changes)
-- Scroll-reveal, skill bars, loader, and mobile menu now use Motion's `whileInView` /
-  `AnimatePresence` instead of a manual IntersectionObserver + class toggling
-- Scroll-spy active nav link via a small custom hook
-- Theme preference persisted via `localStorage`, same as your original
-- Fully responsive using Tailwind breakpoints, matching your original 860px/900px/640px
-  breakpoints
