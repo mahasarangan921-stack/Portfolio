@@ -29,7 +29,7 @@ export const projects = [
   {
     id: 'Arupadai Veedu',
     tag: 'AV',
-    title: "An immersive virtual journey through the six sacred abodes of Lord Murugan.",
+    title: "Arupadai Veedu",
     description:
       'A virtual spiritual journey through the six sacred abodes of Lord Murugan, bringing their divine beauty, history, and significance to life through an immersive digital experience. ',
     stack: ['HTML', 'CSS', 'JavaScript'],
