@@ -13,7 +13,7 @@ export const projects = [
     tag: 'GE',
     title: 'GreenWay Exporter',
     description:
-      'A responsive e-commerce website developed to showcase an export business and its products through a clean, modern interface with a user-friendly shopping experience.',
+      'A responsive e-commerce website developed to showcase an export business and its products through a clean, modern interface with a user-friendly shopping experience- A Freelance Project.',
     stack: ['HTML', 'CSS', 'JavaScript', 'Tailwind CSS'],
     link: 'https://mahasarangan921-stack.github.io/Green-Way-Exporter/',
   },
