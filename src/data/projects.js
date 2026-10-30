@@ -6,7 +6,7 @@ export const projects = [
     description:
       'A full-stack file transfer application that allows users to upload and transfer files between devices using a simple, user-friendly workflow. Built with a React frontend and Node.js backend with MongoDB integration for file data management.',
     stack: ['React', 'Node.js', 'Express', 'MongoDB'],
-    link: 'https://github.com/mahasarangan921-stack',
+    link: 'https://u-swap.onrender.com',
   },
   {
     id: 'GreenWay Exporter',
@@ -27,11 +27,11 @@ export const projects = [
     link: 'https://github.com/mahasarangan921-stack',
   },
   {
-    id: 'Lulus Toys',
-    tag: 'LT',
-    title: "Lulu's Toys",
+    id: 'Arupadai Veedu',
+    tag: 'AV',
+    title: "An immersive virtual journey through the six sacred abodes of Lord Murugan.",
     description:
-      'A playful and responsive toy e-commerce website featuring age-based product categories and an engaging shopping interface designed for a fun and simple browsing experience.',
+      'A virtual spiritual journey through the six sacred abodes of Lord Murugan, bringing their divine beauty, history, and significance to life through an immersive digital experience. ',
     stack: ['HTML', 'CSS', 'JavaScript'],
     link: 'https://github.com/mahasarangan921-stack',
   },
