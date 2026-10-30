@@ -24,7 +24,7 @@ export const projects = [
     description:
       'A mobile-friendly lottery result finder that helps users search winning numbers, explore lottery categories and years, and view relevant prize information through an easy-to-use interface.',
     stack: ['React', 'JavaScript', 'CSS'],
-    link: 'https://github.com/mahasarangan921-stack',
+    link: 'https://lucky-find.onrender.com',
   },
   {
     id: 'Arupadai Veedu',
@@ -33,7 +33,7 @@ export const projects = [
     description:
       'A virtual spiritual journey through the six sacred abodes of Lord Murugan, bringing their divine beauty, history, and significance to life through an immersive digital experience. ',
     stack: ['HTML', 'CSS', 'JavaScript'],
-    link: 'https://github.com/mahasarangan921-stack',
+    link: 'https://arupadaiveedu.vercel.app',
   },
   {
     id: 'Sparkrise',
